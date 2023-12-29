@@ -2,9 +2,9 @@
 version: "3.8"
 services:
   movies:
-    image: diwakar1012/movies:latest
+    image: diwakar1012/netflix:latest
     ports:
-      - 81:80
+      - 82:80
     deploy:
       replicas: 3
  
