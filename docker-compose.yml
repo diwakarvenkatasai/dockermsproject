@@ -2,26 +2,9 @@
 version: "3.8"
 services:
   movies:
-    image: rahamshaik/moviespayyy:latest
+    image: diwakar1012/movies:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
-  train:
-    image: rahamshaik/trainpayyy:latest
-    ports:
-      - 82:80
-    deploy:
-      replicas: 3
-  recharge:
-    image: rahamshaik/rechargepayyy:latest
-    ports:
-      - 83:80
-    deploy:
-      replicas: 3
-  dth:
-    image: rahamshaik/dthpayyy:latest
-    ports:
-      - 84:80
-    deploy:
-      replicas: 3
+ 
